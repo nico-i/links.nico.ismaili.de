@@ -32,7 +32,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: Checkout your repository using git
-     uses: actions/checkout@v4
+     uses: actions/checkout@v5
    - name: Set repository URL as environment variable
      run: echo "REPO_URL=$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" >> $GITHUB_ENV
    - name: Install, build, and upload your site
@@ -60,7 +60,7 @@ jobs:
   runs-on: ubuntu-latest
   steps:
    - name: Checkout your repository using git
-     uses: actions/checkout@v4
+     uses: actions/checkout@v5
    - name: Setup bun
      uses: oven-sh/setup-bun@v2
    - name: Run psi-svg
