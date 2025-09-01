@@ -16,7 +16,7 @@
 	},
 	"devDependencies": {
 		"@nico-i/ts-config": "^1.0.0",
-		"lint-staged": "^15.2.10"
+		"lint-staged": "^16.0.0"
 	},
 	"scripts": {
 		"dev": "astro dev",
